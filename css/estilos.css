@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+.contenedor-testimonios {
+	background: url(../1.jpg);
+	background-size: cover;
+	background-position: center 0;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.contenedor-slider-testimonios {
+	color: #fff;
+	position: relative;
+	top: 30%;
+}
+
+.contenedor-slider-testimonios .testimonial-slider {
+	position: relative;
+	padding: 70px 40px 90px 40px;
+	background: rgba(0,0,0,0.5);
+}
+
+.contenedor-slider-testimonios .testimonial-slider .item:focus {
+	outline: none;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item {
+	position: relative;
+	text-align: center;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item .fa-user {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item .block-quote {
+	position: relative;
+	margin-bottom: 15px;
+	width: 90%%;
+	margin: 0 auto 15px;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item .block-quote p {
+	position: relative;
+	margin-bottom: 15px;
+	width: 90%;
+	margin: 0 auto 15px;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item .block-quote p:before {
+	content: "\275D";
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item .block-quote p:after {
+	content: "\275E";
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item .info .name {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ED6F00;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.contenedor-slider-testimonios .testimonial-slider .testimonial-item .info .position {
+	color: #fff;
+	font-weight: bolder;
+}
+
+.contenedor-slider-testimonios .slick-dots {
+	display: block;
+	text-align: center;
+	margin: 15px 0 0;
+	position: absolute;
+	width: 100%;
+	bottom: -30px;
+	left: 0;
+}
+
+.contenedor-slider-testimonios .slick-dots>li {
+	display: inline-block;
+	position: relative;
+	margin: 0 5px;
+}
+
+.contenedor-slider-testimonios .slick-dots>li button {
+	border: 0;
+	background: rgba(255,255,255, 0.3);
+	font-size: 0px;
+	padding: 0;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	cursor: pointer;
+
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.contenedor-slider-testimonios .slick-dots>li button:focus {
+	outline: none;
+}
+
+.contenedor-slider-testimonios .slick-dots>li button:hover {
+	background: #ED6F00;
+}
+
+.contenedor-slider-testimonios .slick-dots>li.slick-active button {
+	background: #ED6F00;
+}
+
+/* Mediaqueries */
+@media screen and (max-width: 500px) {
+	.contenedor-slider-testimonios .testimonial-slider {
+		padding: 10px 10px 45px 10px;
+	}
+}

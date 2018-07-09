@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<!-- Iconos -->
+	<link rel="stylesheet" href="css/fontawesome.css">
+
+	<!-- Estilos -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<title>Slider Testimonial - HTML5, CSS3 y JS(jQuery)</title>
+</head>
+<body>
+
+	<div class="contenedor-testimonios">
+		<div class="contenedor-slider-testimonios">
+			<div class="testimonial-slider">
+				<div class="slider-overflow">
+					<div class="slider-carousel">
+						<div class="item">
+							<div class="testimonial-item">
+								<i class="fas fa-user"></i>
+								<div class="block-quote">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iusto iure laborum, incidunt reprehenderit recusandae cupiditate veritatis dolore delectus impedit, aspernatur sint dolor hic nisi suscipit! Maxime voluptate, cupiditate veniam.</p>
+								</div>
+								<div class="info">
+									<div class="name">David</div>
+									<div class="position">Cliente</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimonial-item">
+								<i class="fas fa-user"></i>
+								<div class="block-quote">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iusto iure laborum, incidunt reprehenderit recusandae cupiditate veritatis dolore delectus impedit, aspernatur sint dolor hic nisi suscipit! Maxime voluptate, cupiditate veniam.</p>
+								</div>
+								<div class="info">
+									<div class="name">Moisés</div>
+									<div class="position">Cliente</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimonial-item">
+								<i class="fas fa-user"></i>
+								<div class="block-quote">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iusto iure laborum, incidunt reprehenderit recusandae cupiditate veritatis dolore delectus impedit, aspernatur sint dolor hic nisi suscipit! Maxime voluptate, cupiditate veniam.</p>
+								</div>
+								<div class="info">
+									<div class="name">Miguel</div>
+									<div class="position">Cliente</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/slick.js"></script>
+	<script>
+		$(".slider-carousel").slick({
+			dots: true,
+			infinite: true,
+			speed: 500,
+			autoplay: true,
+			autoplaySpeed: 3000,
+			centerMode: true,
+			centerPadding: "0px",
+			arrows: false,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+		});
+	</script>
+	
+</body>
+</html>
